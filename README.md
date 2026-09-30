@@ -8,8 +8,8 @@ It changes one number, `RenderTrees.distanceRange`, and only as a **multiplier o
 touch game files.
 
 ## Install
-Copy the `FarSight` folder (`FarSight.dll` and `mod.json`) into `BATTLETECH\Mods\`. It loads through ModTek or the game's mod loader
-(a plain DLL entry point).
+Copy the `FarSight` folder (`FarSight.dll` and `mod.json`) into `BATTLETECH\Mods\`. Tested with ModTek 4.5.2
+([get ModTek](https://github.com/BattletechModders/ModTek/releases) if you don't have it; extract it next to `BattleTech.exe`).
 
 ## Use
 Press **Ctrl+F11** to open the FarSight window: an FPS readout, an **Enabled** toggle (off = vanilla), the range slider (x1 to x4), **Save**
