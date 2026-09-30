@@ -29,6 +29,9 @@ and **Close**. Save writes `FarSight.user.json` in the mod folder, which overrid
 - The game's terrain `treeDistance`, `QualitySettings.lodBias` and detail distance were tried and are not what limits this vegetation, so
   FarSight leaves them alone.
 
+## License
+Released under the [MIT License](LICENSE).
+
 ## Building
 `dotnet build -c Release`. It references the game's `Managed` folder. Point it at your game with the `BATTLETECH_DIR` environment variable,
 `-p:BTRoot=...`, or a git-ignored `local.props` file (see the comment in `FarSight.csproj`); without any of these it looks in the default
