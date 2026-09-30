@@ -15,6 +15,9 @@ Copy the `FarSight` folder (`FarSight.dll` and `mod.json`) into `BATTLETECH\Mods
 Press **Ctrl+F11** to open the FarSight window: an FPS readout, an **Enabled** toggle (off = vanilla), the range slider (x1 to x4), **Save**
 and **Close**. Save writes `FarSight.user.json` in the mod folder, which overrides `mod.json` on the next launch. Delete it to reset.
 
+**About the default (x1.69):** I set the default to x1.69 because that is what I found gave the most bang for your buck: a clearly longer view of
+the vegetation for a modest frame-rate cost. It's only my preference, so feel free to change it in the window to suit your hardware.
+
 ## Settings (`mod.json`)
 | Setting | Meaning | Default |
 |---|---|---|
