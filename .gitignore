@@ -1,0 +1,5 @@
+bin/
+obj/
+*.log
+FarSight.user.json
+.vs/

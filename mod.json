@@ -1,0 +1,13 @@
+{
+  "Name": "FarSight",
+  "Enabled": true,
+  "Version": "0.3.2",
+  "DLL": "FarSight.dll",
+  "DLLEntryPoint": "FarSight.Main.Init",
+  "Settings": {
+    "enabled": true,
+    "treeRangeMult": 1.69,
+    "dumpInfo": true,
+    "toggleKey": "Ctrl+F11"
+  }
+}
