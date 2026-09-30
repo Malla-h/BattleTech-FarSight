@@ -29,6 +29,10 @@ and **Close**. Save writes `FarSight.user.json` in the mod folder, which overrid
 - The game's terrain `treeDistance`, `QualitySettings.lodBias` and detail distance were tried and are not what limits this vegetation, so
   FarSight leaves them alone.
 
+## Related projects
+[BattleTech-DLSS](https://github.com/Malla-h/BattleTech-DLSS) is a separate mod that renders the combat view at a lower resolution and upscales it with
+NVIDIA DLSS. The two mods work together.
+
 ## License
 Released under the [MIT License](LICENSE).
 
