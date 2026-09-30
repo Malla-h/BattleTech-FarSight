@@ -2,4 +2,5 @@ bin/
 obj/
 *.log
 FarSight.user.json
+local.props
 .vs/

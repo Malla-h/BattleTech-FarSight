@@ -30,5 +30,6 @@ and **Close**. Save writes `FarSight.user.json` in the mod folder, which overrid
   FarSight leaves them alone.
 
 ## Building
-`dotnet build -c Release` (references the game's `Managed` folder; adjust `BTManaged` in `FarSight.csproj` if the game is elsewhere).
-The output is `bin\Release\net472\FarSight.dll`.
+`dotnet build -c Release`. It references the game's `Managed` folder. Point it at your game with the `BATTLETECH_DIR` environment variable,
+`-p:BTRoot=...`, or a git-ignored `local.props` file (see the comment in `FarSight.csproj`); without any of these it looks in the default
+Steam location. The output is `bin\Release\net472\FarSight.dll`.
